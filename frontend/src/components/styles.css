@@ -1,0 +1,39 @@
+.paper {
+    padding: 24px;
+}
+
+.payrollLogUploader {
+    text-align: center;
+}
+
+.dropzone {
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    height: 150px;
+    border-width: 2px;
+    border-color: rgb(102, 102, 102);
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+dropzoneText {
+
+}
+
+.dropzoneError.dropzoneError {
+    color: red;
+}
+
+.dropzoneLoading.dropzoneLoading {
+    color: blue;
+}
+
+.uploadModal {
+    padding: 24px;
+    text-align: center;
+}
+
+.reportsTable {
+    text-align: center;
+}

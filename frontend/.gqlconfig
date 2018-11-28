@@ -1,0 +1,14 @@
+/* .gqlconfig */
+{
+  schema: {
+    files: "../backend/out/schema.gql"
+  },
+  query: {
+    files: [ 
+      {
+        match: 'src/graphql/**/*.gql',
+        parser: 'QueryParser',
+      },
+    ],
+  },
+}

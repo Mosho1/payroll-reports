@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig-base.json",
+    "compilerOptions": {
+        "lib": [
+            "esnext"
+        ],
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false,
+        "declarationMap": true,
+        "module": "commonjs",
+        "composite": true,
+        "outDir": "./build",
+        "rootDir": "./src",
+    },
+    "include": [
+        "src"
+    ],
+}

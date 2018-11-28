@@ -1,0 +1,5 @@
+mutation AddPayrollLog($logCsvString: String!) {
+    addPayrollLog(logCsvString: $logCsvString) {
+        id
+    }
+}

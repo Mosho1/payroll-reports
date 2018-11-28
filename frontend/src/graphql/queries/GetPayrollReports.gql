@@ -1,0 +1,9 @@
+query GetPayrollReports {
+    payrollReports {
+        employee
+        year
+        month
+        isFirstHalf
+        amountPaid
+    }
+}

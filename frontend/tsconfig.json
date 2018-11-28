@@ -1,0 +1,26 @@
+{
+  "version": "3.1.6",
+  "extends": "../tsconfig-base.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "noEmit": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ]
+  },
+  "include": [
+    "src",
+    "./custom-typings.d.ts",
+
+    // this is temporary, vscode doesn't seem to support references yet
+    "../backend/out/backend.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../backend"
+    }
+  ]
+}

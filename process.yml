@@ -1,0 +1,9 @@
+apps:
+  - script   : npm
+    cwd: ./frontend
+    args: run start-server
+    name: frontend
+  - script   : npm
+    cwd: ./backend
+    args: run start-server
+    name: backend
