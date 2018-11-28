@@ -12,6 +12,9 @@
         "outDir": "./build",
         "rootDir": "./src",
     },
+    "exclude": [
+        "**/__tests__/**"
+    ],
     "include": [
         "src"
     ],

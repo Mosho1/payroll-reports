@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PayrollData parses a csv string 1`] = `
+Object {
+  "entries": Array [
+    Object {
+      "date": "14/11/2016",
+      "employee id": "1",
+      "hours worked": "7.5",
+      "job group": "A",
+    },
+    Object {
+      "date": "9/11/2016",
+      "employee id": "2",
+      "hours worked": "4",
+      "job group": "B",
+    },
+    Object {
+      "date": "10/11/2016",
+      "employee id": "2",
+      "hours worked": "4",
+      "job group": "B",
+    },
+    Object {
+      "date": "9/11/2016",
+      "employee id": "3",
+      "hours worked": "11.5",
+      "job group": "A",
+    },
+    Object {
+      "date": "8/11/2016",
+      "employee id": "3",
+      "hours worked": "6",
+      "job group": "A",
+    },
+    Object {
+      "date": "11/11/2016",
+      "employee id": "3",
+      "hours worked": "3",
+      "job group": "A",
+    },
+    Object {
+      "date": "2/11/2016",
+      "employee id": "3",
+      "hours worked": "6",
+      "job group": "A",
+    },
+    Object {
+      "date": "3/11/2016",
+      "employee id": "2",
+      "hours worked": "12",
+      "job group": "B",
+    },
+    Object {
+      "date": "4/11/2016",
+      "employee id": "2",
+      "hours worked": "11",
+      "job group": "B",
+    },
+    Object {
+      "date": "6/11/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "21/11/2016",
+      "employee id": "1",
+      "hours worked": "6",
+      "job group": "A",
+    },
+    Object {
+      "date": "22/11/2016",
+      "employee id": "1",
+      "hours worked": "5",
+      "job group": "A",
+    },
+    Object {
+      "date": "23/11/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "24/11/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "25/11/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "14/12/2016",
+      "employee id": "1",
+      "hours worked": "7.5",
+      "job group": "A",
+    },
+    Object {
+      "date": "9/12/2016",
+      "employee id": "2",
+      "hours worked": "4",
+      "job group": "B",
+    },
+    Object {
+      "date": "10/12/2016",
+      "employee id": "2",
+      "hours worked": "4",
+      "job group": "B",
+    },
+    Object {
+      "date": "9/12/2016",
+      "employee id": "3",
+      "hours worked": "11.5",
+      "job group": "A",
+    },
+    Object {
+      "date": "8/12/2016",
+      "employee id": "3",
+      "hours worked": "6",
+      "job group": "A",
+    },
+    Object {
+      "date": "12/11/2016",
+      "employee id": "3",
+      "hours worked": "3",
+      "job group": "A",
+    },
+    Object {
+      "date": "2/12/2016",
+      "employee id": "3",
+      "hours worked": "6",
+      "job group": "A",
+    },
+    Object {
+      "date": "3/12/2016",
+      "employee id": "2",
+      "hours worked": "12",
+      "job group": "B",
+    },
+    Object {
+      "date": "4/12/2016",
+      "employee id": "2",
+      "hours worked": "11",
+      "job group": "B",
+    },
+    Object {
+      "date": "6/12/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "21/12/2016",
+      "employee id": "1",
+      "hours worked": "6",
+      "job group": "A",
+    },
+    Object {
+      "date": "22/12/2016",
+      "employee id": "1",
+      "hours worked": "5",
+      "job group": "A",
+    },
+    Object {
+      "date": "23/12/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "24/12/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "25/12/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+    Object {
+      "date": "23/2/2015",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "A",
+    },
+    Object {
+      "date": "24/2/2016",
+      "employee id": "4",
+      "hours worked": "5",
+      "job group": "B",
+    },
+  ],
+  "id": "43",
+}
+`;
