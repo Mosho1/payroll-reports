@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "$1" == "dev" ]; then
+    docker-compose -f docker-compose.dev.yml up &
+    (cd backend && npm i && npm start &) 
+    (cd frontend && npm i && npm start &)
+else
+    docker-compose up --build
+fi
