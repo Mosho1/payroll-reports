@@ -6,7 +6,7 @@ This app allows users to upload payroll logs and generates an aggregated payroll
 
 #### Requirements
 
-1. Node.js
+1. Node.js (at least v8)
 2. Docker
 
 #### Instructions
