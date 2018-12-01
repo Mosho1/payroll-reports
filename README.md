@@ -38,6 +38,7 @@ The codebase is split into two distinct parts (`/backend` and `/frontend`) but c
 3. TypeORM
 4. PostgreSQL
 5. Redis
+6. Docker
 
 ##### Frontend
 
