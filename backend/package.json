@@ -39,7 +39,7 @@
   },
   "scripts": {
     "compile": "tsc",
-    "build-schema": "npm run compile -- -p tsconfig-outFile.json && node build/schema/printSchema.js >> out/schema.gql",
+    "build-schema": "npm run compile -- -p tsconfig-outFile.json && node build/schema/printSchema.js > out/schema.gql",
     "build": "npm run compile && npm run build-schema",
     "start-server": "node build/index.js",
     "start": "npm run build && npm run start-server",
