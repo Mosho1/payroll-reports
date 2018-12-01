@@ -8,6 +8,7 @@ This app allows users to upload payroll logs and generates an aggregated payroll
 
 1. Node.js (at least v8)
 2. Docker
+3. Docker Compose (Only needs to be installed separately on linux distros)
 
 #### Instructions
 
