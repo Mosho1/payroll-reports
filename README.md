@@ -23,6 +23,25 @@ This app allows users to upload payroll logs and generates an aggregated payroll
 
 ### Design
 
+#### Stack
+
+##### Backend
+
+1. TypeScript
+2. Apollo Server
+3. TypeORM
+4. PostgreSQL
+5. Redis
+
+##### Frontend
+
+1. TypeScript
+2. React
+3. Apollo Client
+4. Webpack
+5. React Table
+6. React Dropzone
+
 #### Goals
 
 1. Efficient, scalable and progressive backend using SQL, redis, and GraphQL
@@ -31,8 +50,10 @@ This app allows users to upload payroll logs and generates an aggregated payroll
 
 Important things not covered:
 
-1. A UI design
+1. A UI design - I used the very nice `react-dropzone`
 2. An extensive testing suite (there is just 1 test at the moment, using jest)
+3. Log streaming upload - log files are converted to strings then sent in a GQL query. Some more clever streaming should be used for very large log files.
+
 
 #### Database
 
