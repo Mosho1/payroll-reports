@@ -11,6 +11,8 @@ This app allows users to upload payroll logs and generates an aggregated payroll
 
 #### Instructions
 
+Note: the database is cleaned every time the app is run at the moment
+
 ##### Development
 
 1. ./start dev
@@ -22,6 +24,10 @@ This app allows users to upload payroll logs and generates an aggregated payroll
 2. Go to localhost:3000
 
 ### Design
+
+#### Structure
+
+The codebase is split into two distinct parts (`/backend` and `/frontend`) but connected through the TypeScript Project References feature to share type information. Services are run using Docker for PostgreSQL, Redis and the production version of the app. The development version is run using Node.js on the developer's machine (Postgres and Redis still with Docker for development).
 
 #### Stack
 
