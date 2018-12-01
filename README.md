@@ -46,6 +46,7 @@ TypeScript is used for both the backend and frontend. GraphQL was used as the AP
 
 These are the data models in graphql format:
 
+```graphql
 type PayrollEntry {
   id: ID!
   date: DateTime!
@@ -66,6 +67,7 @@ type PayrollLog {
   entries: [PayrollEntry!]!
 }
 
+# stored in redis 
 type PayrollReport {
   employee: Float!
   year: Float!
@@ -73,4 +75,4 @@ type PayrollReport {
   isFirstHalf: Boolean!
   amountPaid: Float!
 }
-
+```
