@@ -65,7 +65,7 @@ Important things not covered:
 
 #### Database
 
-The main database is a PostgreSQL database used for holding the log data. It consists of 3 tables as depicted in [Data Models]{#data-models}. The report data (that is shown in the UI) is materialized in a redis store, where relevant keys are updated when a log is uploaded.
+The main database is a PostgreSQL database used for holding the log data. It consists of 3 tables as depicted in [Data Models](#data-models). The report data (that is shown in the UI) is materialized in a redis store, where relevant keys are updated when a log is uploaded.
 
 #### API
 
