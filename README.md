@@ -54,11 +54,11 @@ The codebase is split into two distinct parts (`/backend` and `/frontend`) but c
 
 1. Efficient, scalable and progressive backend using SQL, redis, and GraphQL
 2. Developer ergonomics - using automatically and seamlessly generated models to facilitate DRY along with TypeScript for autocompletion, type checking and general peace of mind. The frontend also uses Webpack with hot reloading.
-3. Easy development and deployment with docker images. This can also be run completely on AWS serverless using Lambda, Aurora and ElastiCache for a ridiculously easily scalable system, or with Kubernetes/Docker Swarm for more control.
+3. Easy development and deployment with docker images. This can also be run completely on AWS serverless using Lambda, Aurora and ElastiCache for an easily scalable system, or with Kubernetes/Docker Swarm for more control.
 
 Important things not covered:
 
-1. A UI design - I used the very nice `react-dropzone`
+1. Better UI design
 2. An extensive testing suite (there is just 1 test at the moment, using jest)
 3. Log streaming upload - log files are converted to strings then sent in a GQL query. Some more clever streaming should be used for very large log files.
 
